@@ -104,13 +104,13 @@ list.forEach(e->System.out.println(e.getEid()+"-- "+e.getName()+" ->  "+e.getBor
 	 */
 
 	/** Kartik
-	 * Retrieve Employee name and birth.
+	 * Retrieve Employee name andÂ birth.
 	 * Filter the employee name and birth only it department
 	 * Check the duplicate name
-	 * Count the employees by martial status
-	 * Find the employees who has join before 2010 
+	 * Count the employees by martialÂ status
+	 * Find the employees who has join beforeÂ 2010 
 	 */
-	//Retrieve Employee name and birth.
+	//Retrieve Employee name andÂ birth.
 	//list.stream().map(f->f.getName()+" ->"+f.getBornDate()).collect(Collectors.toList()).forEach(System.out::println);
 
 	 // Filter the employee name and birth only it department
@@ -135,7 +135,7 @@ list.forEach(e->System.out.println(e.getEid()+"-- "+e.getName()+" ->  "+e.getBor
 //	    } else {
 //	        System.out.println("Duplicate Names: " + name2);
 //	    }
-	// Count the employees by martial status
+	// Count the employees by martialÂ status
 //	Map<String, Long> countByMaritalStatus =list.stream()
 //            .collect(Collectors.groupingBy(Employee::getMaritalStatus, Collectors.counting()));
 //
@@ -143,18 +143,19 @@ list.forEach(e->System.out.println(e.getEid()+"-- "+e.getName()+" ->  "+e.getBor
 //        countByMaritalStatus.forEach((status, count) -> 
 //            System.out.println(status + ": " + count + " employees"));
 	
-	//Find the employees who has join before 2010
+	//Find the employees who has join beforeÂ 2010
 	//list.stream().filter(f->f.getHireDate().getYear() < 2010).map(Employee::getName ).forEach(System.out::println);
 
+	
 	/** Twinkle
 	 * 1.Print name and birthday of emp whose birth date is 15 July 1998
 	 * 2.Give name and I'd of emp who are married 
 	 * 3.List out name of female employees born before 2000
 	 * 4.Associate name of male employee with their job title 
 
-	 * 5.Give count of total no of emp
+	 * 5.Give count ofÂ totalÂ noÂ ofÂ emp
 	 */
-	//Give count of total no of emp
+	//Give count ofÂ totalÂ noÂ ofÂ emp
 //	long total =list.stream().count();
 //	System.out.println("Total Number of Employee is:"+total);
 	
