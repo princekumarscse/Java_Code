@@ -19,7 +19,6 @@ public class SinglyLinkedList {
 			 this.next=next;
 			
 		}// Node class and its constructor closed;
-		 
 			
 	}
 	//add first Node
