@@ -16,9 +16,7 @@ public class sumOfNaturalNumber {
 		System.out.println(n);
 		sum(n-1);
 		
-		
-		
-		
+			
 	}
 	public static void main(String[] args) {
 		
