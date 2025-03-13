@@ -1,6 +1,7 @@
 package java17;
 
 public class ExecutionOrder {
+	
 	// static variable and static block will get memory at class loading time .
 	// static variable will initialize with default value first then get updated
 	// with provided value . And this activity will perform by JVM.
