@@ -45,6 +45,7 @@ public static void main(String[] args) {
 		
 		e.printStackTrace();
 	}
+	
 	finally {
 		if(sc!=null)
 		sc.close();
