@@ -16,6 +16,7 @@ public static void main(String[] args) {
 	Scanner sc=null;
 	
 	try {
+		
 	//	int value = System.in.read();
 		 sc=new Scanner(System.in);
 		
