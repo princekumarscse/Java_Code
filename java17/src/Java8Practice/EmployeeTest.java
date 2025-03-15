@@ -142,13 +142,13 @@ list.forEach(e->System.out.println(e.getEid()+"-- "+e.getName()+" ->  "+e.getBor
 //        // Print results
 //        countByMaritalStatus.forEach((status, count) -> 
 //            System.out.println(status + ": " + count + " employees"));
-<<<<<<< HEAD
-	
-	//Find the employees who has join beforeÂ 2010
-=======
+//<<<<<<< HEAD
 //	
-	//Find the employees who has join before 2010
->>>>>>> 2528ffb (15/03/2025)
+//	//Find the employees who has join beforeÂ 2010
+//=======
+////	
+//	//Find the employees who has join before 2010
+//>>>>>>> 2528ffb (15/03/2025)
 	//list.stream().filter(f->f.getHireDate().getYear() < 2010).map(Employee::getName ).forEach(System.out::println);
 
 	
