@@ -33,6 +33,7 @@ public static void main(String[] args) {
 					System.out.println(nextToken);
 					list.add(nextToken);
 				}
+				
 				}else {
 					System.out.println(value);	
 					list.add(value);
