@@ -49,7 +49,6 @@ public static void main(String[] args) {
 	finally {
 		if(sc!=null)
 		sc.close();
-		
 	}
 	
 }
