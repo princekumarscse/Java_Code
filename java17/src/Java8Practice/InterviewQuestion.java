@@ -42,6 +42,6 @@ public class InterviewQuestion {
 		 System.out.println(map);
 	}
 	
-	  
+	     
 	
 }
