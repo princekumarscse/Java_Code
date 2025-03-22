@@ -27,7 +27,7 @@ public class InterviewQuestion {
 		 collect.forEach((a,b)->System.out.println(a+" "+b));
 //		  public static <T, K, A, D>
 //		    Collector<T, ?, Map<K, D>> groupingBy(Function<? super T, ? extends K> classifier,
-//		                                          Collector<? super T, A, D> downstream)
+//		                                         Collector<? super T, A, D> downstream)
 		 Map<String, Integer> map=new HashMap<>();
 		 for(String name:names) {
 			if(map.containsKey(name)) {
