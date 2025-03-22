@@ -21,7 +21,8 @@ public class InterviewQuestion {
 	
 	 Map<String, Long> collect = Arrays.stream(names)
 			.collect(Collectors.groupingBy(name->name,Collectors.counting()));
-	 collect.forEach((a,b)->System.out.println(a +" "+b));
+	 collect.forEach((a,b)-> System.out.println(a +" "+b));
+	 
 //	  public static <T, K, A, D>
 //	    Collector<T, ?, Map<K, D>> groupingBy(Function<? super T, ? extends K> classifier,
 //	                                          Collector<? super T, A, D> downstream)
