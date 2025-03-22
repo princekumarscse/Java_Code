@@ -22,6 +22,7 @@ public static void main(String[] args) {
 		
 		e.printStackTrace();
 	}
+	
 	Instant end=Instant.now();
 	System.out.println("Total time taken "+Duration.between(start, end).toMillis()+" ms");
 }
