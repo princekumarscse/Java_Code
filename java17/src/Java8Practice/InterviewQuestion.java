@@ -35,7 +35,7 @@ public class InterviewQuestion {
 				count=count+1;
 				map.put(name, count);
 			}
-			else {
+			else { 
 				map.put(name, 1);
 			} 
 		}
