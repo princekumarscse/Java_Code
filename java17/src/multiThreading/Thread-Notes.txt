@@ -1,0 +1,11 @@
+Q1)How many ways you can create a thread
+Approach 2:
+Advance version of approach 2 using lambda expresion
+step1:write lambda expression and store in Runnable Functional Interface refrence
+step2:create Thread object using 2 argumented (Runnable ,String) constructor
+step3:start the Thread
+Approach:3
+
+
+Q2)Why wait, notify and notifyAll methods are available in Object class not in Thread class
+(we will discuss later)
