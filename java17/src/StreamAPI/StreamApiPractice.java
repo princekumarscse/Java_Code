@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
-
+ 
 //1. fetch all the student of IT branch
 //2. fetch all the students of SIRT college
 //3. fetch distinct branches

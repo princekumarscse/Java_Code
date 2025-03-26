@@ -16,7 +16,7 @@ public Employee2(int id, String name, String company, int salary) {
 	this.company = company;
 	this.salary = salary;
 }
-public int getId() {
+public int getId() { 
 	return id;
 }
 public String getName() {

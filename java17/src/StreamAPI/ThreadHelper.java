@@ -2,7 +2,7 @@ package StreamAPI;
 
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.List;
+import java.util.List; 
 import java.util.stream.Collectors;
 
 public class ThreadHelper {
@@ -19,6 +19,6 @@ public static void sortStudent() {
 	for (Student s : data) {
 		System.out.println(
 				s.getId() + " " + s.getName() + " " + s.getBranch() + " " + s.getCollege() + " " + s.getCGPA());
-	}
+	} 
 }
 } 
