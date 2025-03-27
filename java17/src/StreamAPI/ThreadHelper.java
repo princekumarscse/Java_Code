@@ -21,4 +21,4 @@ public static void sortStudent() {
 				s.getId() + " " + s.getName() + " " + s.getBranch() + " " + s.getCollege() + " " + s.getCGPA());
 	} 
 }
-} 
+}   
