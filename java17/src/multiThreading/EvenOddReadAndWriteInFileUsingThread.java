@@ -5,12 +5,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.util.List;
 
-/*
- * Step1:Take path of the file in which you want to write
- * Step2:if file not exists create file
- * 
- * */
 public class EvenOddReadAndWriteInFileUsingThread {
 public static void main(String[] args) throws IOException {
 	Runnable evenThread=()->{
@@ -27,18 +23,35 @@ public static void main(String[] args) throws IOException {
 		try {
 			join.trim();
 			Files.write(path,join.getBytes(),StandardOpenOption.APPEND);
+			List<String> allLines = Files.readAllLines(path);
+			System.out.println(allLines);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}};
-	Runnable oddThread=()->{for(int i=1;i<=10;i++) {
+	Runnable oddThread=()->{
+		String join="";
+		for(int i=1;i<=10;i++) {
 		if(i%2!=0) {
-			System.out.println(Thread.currentThread().getName()+" "+i);
+			String s=String.valueOf(i);
+			join+=s+" ";
 		}
-	}};
-	//Thread t1=new Thread(oddThread, "OddThreadV1");
+		}
+			Path path2=Paths.get("OddThread.txt");
+			try {
+				
+				join.trim();
+				Files.write(path2, join.getBytes(), StandardOpenOption.APPEND);
+				List<String> allLines = Files.readAllLines(path2);
+				System.out.println(allLines);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	};
+	Thread t1=new Thread(oddThread, "OddThreadV1");
 	Thread t2=new Thread(evenThread, "EvenThreadV1");
-	//t1.start();
+	t1.start();
 	t2.start();
 	
 }
