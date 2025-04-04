@@ -3,7 +3,7 @@ package synchronization;
 public class SynchronizationConcept {
 public void m1() {
 	System.out.println("m1 method");
-}
+} 
 public synchronized void m2() {
 	System.out.println("m2 method");
 	try {
