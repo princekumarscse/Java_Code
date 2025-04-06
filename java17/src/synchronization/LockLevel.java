@@ -20,7 +20,7 @@ public synchronized void m1() {
 		e.printStackTrace();
 	}
 }
-public void m8() {
+public void m8() { 
 	System.out.println(Thread.currentThread().getName());
 	{
 		System.out.println("m1() synchronized block");
