@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	Runnable r1=()->{
 		sc.m2();
 	};
-	Runnable r2=()->{
+	Runnable r2=()->{ 
 		sc.m3();
 	};
 	Runnable r3=()->{
