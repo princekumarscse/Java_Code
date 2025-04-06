@@ -17,7 +17,7 @@ public synchronized void m3() {
 	System.out.println("m3 method");
 	try {
 		Thread.sleep(2000);
-	} catch (InterruptedException e) {
+	} catch (InterruptedException e) { 
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
