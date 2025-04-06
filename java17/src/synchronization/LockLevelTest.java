@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	};
 	Runnable r2=()->{ 
 		lock.m8();
-	};
+	}; 
 	Thread t1=new Thread(r1);
 	Thread t2=new Thread(r2);
 	t1.start();
