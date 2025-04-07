@@ -7,7 +7,7 @@ public class OddThread1 implements Runnable{
 		for(int i=1;i<=10;i++) {
 			if(i%2!=0) {
 				System.out.println(Thread.currentThread().getName()+" "+i);
-			}
+			} 
 		}
 		
 	}
