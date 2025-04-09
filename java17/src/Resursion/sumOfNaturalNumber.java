@@ -7,7 +7,7 @@ public class sumOfNaturalNumber {
 //			return 1;
 //		return n +sum(n-1);
 //		
-		if(n==0)
+		if(n==0) 
 			return  ;
 //		System.out.println(n);
 //		sum(n-1);
