@@ -11,7 +11,7 @@ public class Program1 {
 		print(s,c);
 	}
 	public static void main(String[] args) {
-		//Q1
+		//Q1 
 		//int[] arr = {1,2,3,4,5,6,7,8,9};
 		//Q2 short the elements in ascending order.
 		//int[] array= {70,5,4,50,80,10,90,30};
