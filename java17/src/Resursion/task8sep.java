@@ -12,7 +12,7 @@ public class task8sep {
 	}
 	public static void fun2(int n) {
 		if(n==0) {
-			return ;
+			return ; 
 		}
 		fun2(n/2);
 		System.out.println(n%2);
