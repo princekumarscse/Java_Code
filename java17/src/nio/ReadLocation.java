@@ -16,7 +16,7 @@ public static void main(String[] args) {
 	System.out.println("file name "+path.getFileName());
 	System.out.println(path.getRoot());
 	System.out.println(path.getParent());
-	try {
+	try { 
 		//Files.delete(path);
 		Files.move(path, target);
 	} catch (IOException e) {
