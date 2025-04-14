@@ -7,7 +7,7 @@ class Bank {
 		{
 			return amount;
 		}
-		return -1;
+		return -1; 
 	}
 
 
