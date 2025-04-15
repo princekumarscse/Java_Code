@@ -6,7 +6,7 @@ public class Calculator {
 	}
 
 	public int subs(int a, int b) {
-		return a - b;
+		return a - b; 
 	}
 
 	public int multi(int a, int b) {
