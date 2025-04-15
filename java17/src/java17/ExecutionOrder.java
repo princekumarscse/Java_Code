@@ -16,7 +16,7 @@ public class ExecutionOrder {
 	// instance members (variable , block ) loading(executation) order , "first come
 	// first surve"
 
-	static {
+	static { 
 		System.out.println("Static Block 3");
 	}
 
