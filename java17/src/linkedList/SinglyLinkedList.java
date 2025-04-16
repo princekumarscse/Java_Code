@@ -12,7 +12,6 @@ public class SinglyLinkedList {
 		public Node prev;
 		
 		
-		
 		 public Node(int data,Node next){
 			 super();
 			 this.data =data;
