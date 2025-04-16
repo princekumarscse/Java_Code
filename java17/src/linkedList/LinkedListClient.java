@@ -12,7 +12,7 @@ public class LinkedListClient {
 		list.addLast(60);
 		list.addMid(2,250);
 		list.addLast(100);
-		
+		 
 		list.print();
 		System.out.println(" "+ list.size());
 		
