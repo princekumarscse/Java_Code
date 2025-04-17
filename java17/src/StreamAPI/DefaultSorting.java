@@ -12,7 +12,7 @@ public static void main(String[] args) {
 	list.add(40);
 	list.add(5);
 	list.add(50);
-	list.add(30);
+	list.add(30);  
 	list.add(20);
 	//Collections.sort(list);
 	System.out.println(list);
