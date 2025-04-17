@@ -13,7 +13,7 @@ private int id;
 private String name;
 private String company;
 private int salary;
-public Employee() {
+public Employee() { 
 	super();
 	// TODO Auto-generated constructor stub
 }
