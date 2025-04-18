@@ -17,7 +17,7 @@ public class desendingOrder {
 					 array[j]= array[j+1];
 					 array[j+1] = temp;
 				 }
-			}
+			}  
 		}
 		
 		for(int i=0; i<array.length ; i++ ) {
