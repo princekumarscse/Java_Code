@@ -28,6 +28,7 @@ public class CountDownLatchExample {
 				}
 			}
 		};
+		
 		ExecutorService service = Executors.newFixedThreadPool(4);
 		for(int i=1;i<=4;i++) {
 			service.submit(passanger);
