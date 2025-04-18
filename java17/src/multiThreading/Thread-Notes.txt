@@ -26,6 +26,8 @@ ans)Step1:Create an object of your thread(ThreadExample)
 
 Q3)Why wait, notify and notifyAll methods are available in Object class not in Thread class
 (we will discuss later)
+ans) synchronization/lock is done on objects, not on Threads therefore communication methods
+ like wait(), notify(), and notifyAll() must be available on objects.
 
 Q4)Why implementing Runnable is better option
 
