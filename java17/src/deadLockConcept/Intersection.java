@@ -2,7 +2,7 @@ package deadLockConcept;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
+ 
 public class Intersection {
 private Object roadA=new Object();
 private Object roadB=new Object();
