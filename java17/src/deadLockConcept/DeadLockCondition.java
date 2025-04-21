@@ -3,7 +3,7 @@ package deadLockConcept;
 //1)Mutual Exclusion
 //2)No preemption
 //3)hold and wait
-//4)Circular wait
+//4)Circular wait 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 //Student1 have pen and want paper to write whereas student 2 have paper and want pen to write
