@@ -27,7 +27,7 @@ public Employee(int id, String name, String company, int salary) {
 public int getId() {
 	return id;
 }
-public String getName() {
+public String getName() { 
 	return name;
 }
 public String getCompany() {
