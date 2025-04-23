@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.Duration;
-import java.time.Instant;
+import java.time.Instant; 
 
 public class BufferWriterExample {
 public static void main(String[] args) {
