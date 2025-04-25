@@ -16,9 +16,14 @@ public static void main(String[] args) {
 			System.out.println("I am even Thread");
 		}
 	};
+<<<<<<< HEAD
 	
 	service.submit(evenThread);
 	service.submit(oddThread);
 	service.shutdown();
+=======
+	service.submit(evenThread);
+	service.submit(oddThread);
+>>>>>>> c627e73 (advance Threading concept commit)
 }
 }

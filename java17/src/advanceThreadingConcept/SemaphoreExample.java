@@ -1,5 +1,12 @@
 package advanceThreadingConcept;
 
+<<<<<<< HEAD
+=======
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+>>>>>>> c627e73 (advance Threading concept commit)
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
@@ -22,7 +29,7 @@ public static void main(String[] args) throws InterruptedException, ExecutionExc
 //		}
 			
 		
-		
+		 
 		return semaphore.availablePermits();
 	};
 	ExecutorService service = Executors.newFixedThreadPool(10);

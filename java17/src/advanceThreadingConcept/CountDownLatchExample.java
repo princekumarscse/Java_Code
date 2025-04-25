@@ -27,8 +27,11 @@ public class CountDownLatchExample {
 					e.printStackTrace();
 				}
 			}
-		};
+		}; 
+<<<<<<< HEAD
 		
+=======
+>>>>>>> c627e73 (advance Threading concept commit)
 		ExecutorService service = Executors.newFixedThreadPool(4);
 		for(int i=1;i<=4;i++) {
 			service.submit(passanger);

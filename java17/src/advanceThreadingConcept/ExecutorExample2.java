@@ -28,7 +28,10 @@ public static void main(String[] args) throws InterruptedException, ExecutionExc
 	}catch(TimeoutException e) {
 		System.out.println(e);
 	}
+<<<<<<< HEAD
 	
+=======
+>>>>>>> c627e73 (advance Threading concept commit)
 	System.out.println(sum);
 	
 	LocalTime end = LocalTime.now();
