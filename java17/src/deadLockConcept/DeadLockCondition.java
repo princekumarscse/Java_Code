@@ -1,9 +1,15 @@
 package deadLockConcept;
 //4 necessary conditon for deadlock
 //1)Mutual Exclusion
+//The resources has to be allocated to only 1 process/Thread or it is freely available.
+//There should be 1 to 1 relationship between resource and Process/Thread
 //2)No preemption
+//it is not allowed to forcfuly preempt the resource from the process/Thread 
+//once resource is allocated(1 by 1 execution)
 //3)hold and wait
-//4)Circular wait 
+//The process/Thread is holding the resource and waiting on some other resource simultaneously.
+//4)Circular wait
+//Process/Threads are circulerly waiting on each other for resources
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 //Student1 have pen and want paper to write whereas student 2 have paper and want pen to write
