@@ -10,7 +10,7 @@ public class Employee {
 		private String maritalStatus;
 		private LocalDate hireDate;
 		private String department;
-		private String jobTitle;
+		private String jobTitle; 
 		private long ctc;
 		private String workLocation;
 		
