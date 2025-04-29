@@ -12,7 +12,7 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
+import java.util.Map; 
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -104,13 +104,13 @@ list.forEach(e->System.out.println(e.getEid()+"-- "+e.getName()+" ->  "+e.getBor
 	 */
 
 	/** Kartik
-	 * Retrieve Employee name and birth.
+	 * Retrieve Employee name andÂ birth.
 	 * Filter the employee name and birth only it department
 	 * Check the duplicate name
-	 * Count the employees by martial status
-	 * Find the employees who has join before 2010 
+	 * Count the employees by martialÂ status
+	 * Find the employees who has join beforeÂ 2010 
 	 */
-	//Retrieve Employee name and birth.
+	//Retrieve Employee name andÂ birth.
 	//list.stream().map(f->f.getName()+" ->"+f.getBornDate()).collect(Collectors.toList()).forEach(System.out::println);
 
 	 // Filter the employee name and birth only it department
@@ -135,7 +135,7 @@ list.forEach(e->System.out.println(e.getEid()+"-- "+e.getName()+" ->  "+e.getBor
 //	    } else {
 //	        System.out.println("Duplicate Names: " + name2);
 //	    }
-	// Count the employees by martial status
+	// Count the employees by martialÂ status
 //	Map<String, Long> countByMaritalStatus =list.stream()
 //            .collect(Collectors.groupingBy(Employee::getMaritalStatus, Collectors.counting()));
 //
@@ -144,10 +144,10 @@ list.forEach(e->System.out.println(e.getEid()+"-- "+e.getName()+" ->  "+e.getBor
 //            System.out.println(status + ": " + count + " employees"));
 //<<<<<<< HEAD
 //	
-//	//Find the employees who has join before 2010
+//	//Find the employees who has join beforeÂ 2010
 //========
 ////	
-//	//Find the employees who has join before�2010
+//	//Find the employees who has join before 2010
 //>>>>>>> 2528ffb (15/03/2025)
 	//list.stream().filter(f->f.getHireDate().getYear() < 2010).map(Employee::getName ).forEach(System.out::println);
 
@@ -158,9 +158,9 @@ list.forEach(e->System.out.println(e.getEid()+"-- "+e.getName()+" ->  "+e.getBor
 	 * 3.List out name of female employees born before 2000
 	 * 4.Associate name of male employee with their job title 
 
-	 * 5.Give count of total no of emp
+	 * 5.Give count ofÂ totalÂ noÂ ofÂ emp
 	 */
-	//Give count of total no of emp
+	//Give count ofÂ totalÂ noÂ ofÂ emp
 //	long total =list.stream().count();
 //	System.out.println("Total Number of Employee is:"+total);
 	
