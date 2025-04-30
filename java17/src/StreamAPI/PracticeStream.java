@@ -6,7 +6,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import java.util.stream.Stream;  
 
 //1. fetch all the student of IT branch
 //2. fetch all the students of SIRT college
