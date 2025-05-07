@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.nio.file.StandardOpenOption;
 
-public class FileExample { 
+public class FileExample {  
 public static void main(String[] args) {
 	Path path=Paths.get("C:\\Users\\TWINKLE THAKUR\\test-folder2");
 	Path path2=Paths.get("C:\\Users\\TWINKLE THAKUR\\test-folder2\\\\myTest.txt");
