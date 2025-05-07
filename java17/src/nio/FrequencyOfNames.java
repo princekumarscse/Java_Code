@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
  
 public class FrequencyOfNames {
-public static void main(String[] args) {
+public static void main(String[] args) { 
 	Path path=Paths.get("myTest.txt");
 	try {
 		List<String> list = Files.readAllLines(path);
