@@ -9,7 +9,7 @@ public class CircularLinkedListClient {
 		list.add(20);
 		list.add(30);
 		list.add(40);
-		 
+		   
 		list.print();
 		System.out.println(list.isCircularLinkedList());
 	}
