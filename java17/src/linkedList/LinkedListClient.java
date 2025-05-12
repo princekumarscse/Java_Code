@@ -8,7 +8,7 @@ public class LinkedListClient {
 		
 		SinglyLinkedList list = new SinglyLinkedList();
 		
-		list.addFirst(10);
+		list.addFirst(10);  
 		list.addLast(60);
 		list.addMid(2,250);
 		list.addLast(100); 
