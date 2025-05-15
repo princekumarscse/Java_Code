@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-
+ 
 public class FileReaderExample {
 public static void main(String[] args) {
 	File file=new File("myTest.txt");
