@@ -14,7 +14,7 @@ public class JdbcUtilMyBook {
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
-	}
+	} 
 
 //2. Establish the connection between JDBC and database
 	public static Connection getMysqlConnection() {
