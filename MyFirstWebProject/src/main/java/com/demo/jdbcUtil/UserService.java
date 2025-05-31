@@ -1,15 +1,15 @@
-package jdbcUtil;
+package com.demo.jdbcUtil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class RegisteredUser {
+public class UserService {
 	public static boolean verifyUser(String username, String phone ,String email,String gender,String course,String timing) {
 		  String query = "SELECT * FROM login  WHERE username=? AND phone=? AND email=? AND gender=? AND course=? AND timing=?";
 
-		try (Connection connection = JdbcUtilUser.getMysqlConnection();
+		try (Connection connection = JdbcUtilMyBook.getMysqlConnection();
 				PreparedStatement ps = connection.prepareStatement(query)) {
 
 			ps.setString(1, username);
@@ -29,7 +29,7 @@ public class RegisteredUser {
 	}
 	public static void insert(String username, String phone ,String email,String gender,String course,String timing) {
 		 String query = "INSERT INTO login  (username, phone, email, gender, course, timing) VALUES (?, ?, ?, ?, ?, ?)";
-		try (Connection connection = JdbcUtilUser.getMysqlConnection();
+		try (Connection connection = JdbcUtilMyBook.getMysqlConnection();
 				PreparedStatement ps = connection.prepareStatement(query)) {
 			ps.setString(1, username);
 			ps.setString(2, phone);
