@@ -10,7 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import jdbcUtil.RegisteredUser;
+import com.demo.jdbcUtil.UserService;
+
+
 
 /**
  * Servlet implementation class RegisteredServlet
@@ -50,7 +52,7 @@ public class RegisteredServlet extends HttpServlet {
 				+ "</li>" + "<li>" + gender + "</li>" + "<li>" + course + "</li>" + "<li>" + timing + "</li>"
 				+ "</ul></body></html>";
 		writer.write(message);
-		RegisteredUser.insert(name, phone, email, gender, course, timing);
+		UserService.insert(name, phone, email, gender, course, timing);
 	}
 
 }
