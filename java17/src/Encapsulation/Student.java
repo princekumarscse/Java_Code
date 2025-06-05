@@ -4,7 +4,7 @@ public class Student {
 	private int rollNumber =30011;
 	private String name="Prince Kumar";
 	private int age=23;
-	 
+	   
 	public int getRollNumber() {
 		return rollNumber;
 	} 
