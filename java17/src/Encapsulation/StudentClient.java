@@ -8,7 +8,7 @@ public class StudentClient {
 		System.out.println(std.getAge());
 		System.out.println(std.getName());
 
-		  
+		   
 	}
 
 }
