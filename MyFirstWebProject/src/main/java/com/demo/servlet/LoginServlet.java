@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.demo.jdbcUtil.UserService;
  
-/**
+/** 
  * Servlet implementation class LoginServlet
  */
 @WebServlet("/login.do")
