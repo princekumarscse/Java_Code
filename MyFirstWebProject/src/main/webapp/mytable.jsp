@@ -17,7 +17,7 @@
       <th scope="col">Username</th>
       <th scope="col">Phone</th>
       <th scope="col">Course</th>
-    </tr>
+    </tr> 
   </thead>
   <tbody>
   <c:forEach var="student" items="${requestScope.stu}" varStatus="status">
