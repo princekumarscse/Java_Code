@@ -11,7 +11,7 @@ package StreamAPI;
 public class Employee {
 private int id;
 private String name;
-private String company;
+private String company;  
 private int salary;
 public Employee() { 
 	super();
