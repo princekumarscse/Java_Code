@@ -5,7 +5,7 @@ package StreamAPI;
 //Q Fetch distinct company names
 //Q Fetch the employee who has highest salary 
 //Q Fetch all those  employee working for TCS 
-
+ 
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Function;
