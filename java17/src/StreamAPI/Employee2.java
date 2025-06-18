@@ -12,7 +12,7 @@ public Employee2() {
 public Employee2(int id, String name, String company, int salary) {
 	super();
 	this.id = id;
-	this.name = name; 
+	this.name = name;  
 	this.company = company;
 	this.salary = salary;
 }
