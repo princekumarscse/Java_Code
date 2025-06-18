@@ -4,7 +4,7 @@ package StreamAPI;
 //3. fetch distinct branches
 //4. fetch those students having CGPA >8.5
 //5. sort all the students by CGPA(in ascending and Descending order)
-import java.util.ArrayList; 
+import java.util.ArrayList;  
 import java.util.List; 
 //public Student(int id, String name, String branch, String college, double cGPA) 
 public class DataBase {
