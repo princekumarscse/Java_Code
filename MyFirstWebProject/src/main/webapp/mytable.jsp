@@ -10,7 +10,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<table class="table table-dark table-striped">
+<table class="table table-dark table-striped">   
   <thead>
     <tr>
       <th scope="col">#</th>
