@@ -16,7 +16,7 @@
 	<c:forEach var="x" items="${requestScope.AL }">
 		<p>${x}</p>
 	</c:forEach>
-  
+   
 	<c:forEach var="entry" items="${requestScope.map }">
 	<p>${entry.key}: ${entry.value}</p>
 	</c:forEach>
