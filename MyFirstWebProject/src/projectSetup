@@ -2,7 +2,7 @@ Required software for Web Application
 1)tomcat 
 2)eclipse java ee(https://www.eclipse.org/downloads/packages/release/2024-12/r)
 3)JDK
-
+ 
 How to create a web project in eclipse
 1)click on file and click on new
 2)click on dynamic web project
