@@ -3,7 +3,7 @@ package Array;
 public class ReverseArray {
 
 	public static void reverse(int[] a,int n ) {
-		int left=0;
+		int left=0; 
 		int right=n-1;
 		
 		while(left <= right) {
