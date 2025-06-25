@@ -13,7 +13,7 @@ public class RegisteredUser {
 		String query = "SELECT * FROM login  WHERE username=? AND phone=? AND email=? AND gender=? AND course=? AND timing=?";
 
 		try (Connection connection = JdbcUtilUser.getMysqlConnection();
-				PreparedStatement ps = connection.prepareStatement(query)) {
+				PreparedStatement ps = connection.prepareStatement(query)) {  
 
 			ps.setString(1, username);
 			ps.setString(2, phone);
