@@ -4,7 +4,7 @@ package jdbcUtil;
  * ps.setString(1, username);
 			ps.setString(2, phone);
 			ps.setString(3,email);
-			ps.setString(4,gender);
+			ps.setString(4,gender); 
 			ps.setString(5 ,course);
 			ps.setString(6,timing);  
  */
