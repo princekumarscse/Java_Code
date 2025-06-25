@@ -10,7 +10,7 @@ package jdbcUtil;
  */
 public class Student {
 	private String username;
-	private String phone;
+	private String phone; 
 	private String gender;
 	private String course;
 	private String timing;
