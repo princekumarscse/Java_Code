@@ -6,7 +6,7 @@ package jdbcUtil;
 			ps.setString(3,email);
 			ps.setString(4,gender);
 			ps.setString(5 ,course);
-			ps.setString(6,timing);
+			ps.setString(6,timing);  
  */
 public class Student {
 	private String username;
