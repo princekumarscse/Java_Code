@@ -19,7 +19,7 @@ public class BufferReaderExample {
 			while((line=br.readLine())!=null) {
 				System.out.println(line);
 			}
-		} catch (Exception e) {
+		} catch (Exception e) {  
 
 			e.printStackTrace();
 		} 
