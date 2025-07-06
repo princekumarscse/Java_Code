@@ -15,6 +15,7 @@
 	<h2><c:out value="${username}"></c:out> </h2>
 	<c:forEach var="x" items="${requestScope.AL }">
 		<p>${x}</p>
+		
 	</c:forEach>
    
 	<c:forEach var="entry" items="${requestScope.map }">

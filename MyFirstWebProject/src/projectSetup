@@ -14,5 +14,10 @@ How to create a web project in eclipse
 How to deploy the project
 1)right click on the project (MyFirstWebProject )
 2)select runs >run on server  
+<<<<<<< HEAD
 3)open the browser  
 4)provide the URL(http://localhost:8080/MyFirstWebProject/home.html)
+=======
+3)open the browser   
+4)provide the URL(http://localhost:8080/MyFirstWebProject/home.html)
+>>>>>>> c0aff33 (commit)
