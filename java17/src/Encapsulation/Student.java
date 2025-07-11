@@ -9,7 +9,7 @@ public class Student {
 		return rollNumber;
 	} 
 	public void setRollNumber(int rollNumber) {
-		this.rollNumber = rollNumber;
+		this.rollNumber = rollNumber; 
 	}
 	public String getName() {
 		return name; 
