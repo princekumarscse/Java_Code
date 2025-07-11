@@ -1,5 +1,5 @@
 package Encapsulation;
-
+ 
 public class Student {
 	private int rollNumber =30011;
 	private String name="Prince Kumar";
