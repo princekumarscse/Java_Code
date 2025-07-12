@@ -8,7 +8,7 @@ public class d3Array {
 		
 		System.out.println(array.length);
 		System.out.println(array[0].length);
-		System.out.println(array[0][0].length);
+		System.out.println(array[0][0].length); 
 		//System.out.println(array[0][0][0]);
 		
 		for(int i=0;i<4;i++) {
