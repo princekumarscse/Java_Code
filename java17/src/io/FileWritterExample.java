@@ -9,7 +9,7 @@ import java.time.Instant;
 public class FileWritterExample {
 public static void main(String[] args) {
 	//File file=new File("test.txt");
-	//FileWriter fw=new FileWriter(file);
+	//FileWriter fw=new FileWriter(file); 
 	
 	Instant start=Instant.now();
 	try(FileWriter fw=new FileWriter(new File("test.txt"))){
