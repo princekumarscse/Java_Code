@@ -15,7 +15,7 @@ public static void main(String[] args) {
 	try(FileWriter fw=new FileWriter(new File("test.txt"))){
 		fw.write(DataBase.getNames());
 	} catch (IOException e) {
-		e.printStackTrace();
+		e.printStackTrace(); 
 	}
 	Instant end=Instant.now();
 	System.out.println("Total time taken "+Duration.between(start, end).toMillis()+" ms");
