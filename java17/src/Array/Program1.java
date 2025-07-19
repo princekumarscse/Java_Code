@@ -1,5 +1,5 @@
 package Array;  
-
+ 
 public class Program1 { 
 	public static void print(String s ,int c) {
 		
