@@ -5,7 +5,7 @@ public class SinglyLinkedList {
 	private Node tail;
 	private int size;
 
-	// Node creation  
+	// Node creation    
 	class Node{
 		private int data;
 		private Node next;
