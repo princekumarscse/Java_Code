@@ -11,7 +11,7 @@ public class Test {
 				new Student(310, "Amit", "Galgotias"),
 				
 				
-		};	 
+		}; 	 
 		int n= array.length;
 		//rollNumbre & Name shorting..
 		
