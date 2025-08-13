@@ -8,7 +8,7 @@ public class task8sep {
 			return 1 + fun(n/2);
 			
 		}
-		
+		 
 	}
 	public static void fun2(int n) {
 		if(n==0) {
