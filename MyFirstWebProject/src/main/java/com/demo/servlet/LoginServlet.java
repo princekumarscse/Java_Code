@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.demo.jdbcUtil.UserService;
  
 /** 
- * Servlet implementation class LoginServlet
+ * Servlet implementation class LoginServlet 
  */
 @WebServlet("/login.do")
 public class LoginServlet extends HttpServlet {
@@ -36,3 +36,4 @@ public class LoginServlet extends HttpServlet {
 	}
 
 }
+
