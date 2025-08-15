@@ -1,4 +1,4 @@
-package com.demo.servlet;
+package com.demo.servlet; 
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -36,4 +36,5 @@ public class LoginServlet extends HttpServlet {
 	}
 
 }
+
 
