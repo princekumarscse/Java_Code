@@ -5,6 +5,7 @@ public class d3Array {
 		
 		int[][][] array=new int[4][3][2];
 		int count=1;
+		 
 		
 		System.out.println(array.length);
 		System.out.println(array[0].length);
