@@ -6,7 +6,7 @@ public class Program1 {
 		if(c<=0) { 
 			return ;
 			} 
-		System.out.println(s);
+		System.out.println(s); 
 		c--;
 		print(s,c);
 	} 
