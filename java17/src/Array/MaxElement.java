@@ -13,7 +13,7 @@ public class MaxElement {
 		 	
 			if(max < array[i]) {
 				max=array[i];  
-			}
+			} 
 			if(min > array[i])
 			{
 				min= array[i];
