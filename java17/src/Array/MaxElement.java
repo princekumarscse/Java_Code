@@ -12,7 +12,7 @@ public class MaxElement {
 		for(int i=0; i<array.length ;i++) {
 		 	
 			if(max < array[i]) {
-				max=array[i];
+				max=array[i];  
 			}
 			if(min > array[i])
 			{
