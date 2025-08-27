@@ -4,7 +4,7 @@ public class Program1 {
 	public static void print(String s ,int c) {
 		
 		if(c<=0) { 
-			return ;
+			return ;  
 			}  
 		System.out.println(s); 
 		c--;
