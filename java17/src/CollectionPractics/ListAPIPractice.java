@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	List<Employee> list = DataBase.getEmployeeData(); 
 	List<Employee>list1 =DataBase.getEmployeeData();
 
-
+ 
 //	
 //	  public abstract int size();
 	//System.out.println(list.size());
