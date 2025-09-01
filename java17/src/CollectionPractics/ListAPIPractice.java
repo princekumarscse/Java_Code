@@ -4,7 +4,7 @@ import java.util.List;
    
 import StreamAPI.DataBase;  
 import StreamAPI.Employee;   
-  
+   
 public class ListAPIPractice {
 public static void main(String[] args) {
 	List<Employee> list = DataBase.getEmployeeData(); 
