@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Map.Entry; 
 import java.util.function.BiConsumer; 
 
-import java.util.Set;  
+import java.util.Set;   
  
   
 public class MapAPIPractice { 
@@ -14,7 +14,7 @@ public class MapAPIPractice {
 		Map<String, Integer> map = new HashMap<>();
 		map.put("Twinkle", 40000);
 		map.put("Prince", 35000);
-		map.put("Kartik", 40000);
+		map.put("Kartik", 40000); 
 		map.put("Kundan", 40000);
 		//System.out.println("Iterate entries from the map ");
 		 // public abstract java.util.Set<java.util.Map$Entry<K, V>> entrySet();//To Iterate the entries
