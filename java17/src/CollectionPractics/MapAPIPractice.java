@@ -2,14 +2,14 @@ package CollectionPractics;
 
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map;  
+import java.util.Map;   
 import java.util.Map.Entry; 
 import java.util.function.BiConsumer; 
 
 import java.util.Set;  
  
   
-public class MapAPIPractice {
+public class MapAPIPractice { 
 	public static void main(String[] args) {
 		Map<String, Integer> map = new HashMap<>();
 		map.put("Twinkle", 40000);
