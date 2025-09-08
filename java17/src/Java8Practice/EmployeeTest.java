@@ -1,6 +1,6 @@
 package Java8Practice;
 import java.text.Collator;
-/**
+/** 
 *Q1 Fetch all employee names
 *Q2 Fetch distinct company names
 *Q3 Fetch the employee who has highest salary 
