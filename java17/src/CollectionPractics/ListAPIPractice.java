@@ -40,7 +40,7 @@ public static void main(String[] args) {
 	// System.out.println(list);
 //	  public abstract boolean remove(java.lang.Object);//Done
 		//list.remove(new Employee(24,"Somil","Oracle",80000));
-		//list.remove(list.size()-1);
+		//list.remove(list.size()-1); 
 //		for(Employee e:list) {
 //			System.out.println(e.getId()+" "+e.getName()+" "+e.getCompany()+" "+e.getSalary());
 //	
