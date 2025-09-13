@@ -3,7 +3,7 @@ package CollectionPractics;
 import java.util.HashSet;
 import java.util.Set;
 import StreamAPI.Employee;
-  
+   
 public class SetAPIPractice {
 public static void main(String[] args) {
 	Set<Integer> set= new HashSet<>();
