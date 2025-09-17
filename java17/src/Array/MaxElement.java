@@ -4,7 +4,7 @@ public class MaxElement {
       
 	public static void main(String[] args) { 
  
-		int[] array= {170,5,4,50,80,10,90,30};     
+		int[] array= {170,5,4,50,80,10,90,30};      
 		     
 		int max=array[0];        
 		int min=array[0];         
