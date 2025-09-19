@@ -4,7 +4,7 @@ import java.text.Collator;
 *Q1 Fetch all employee names
 *Q2 Fetch distinct company names
 *Q3 Fetch the employee who has highest salary 
-*Q4 Fetch all those  employee working for TCS 
+*Q4 Fetch all those  employee working for TCS  
  */ 
 import java.time.LocalDate;
 import java.time.Month; 
