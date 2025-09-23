@@ -12,7 +12,7 @@ public static void main(String[] args) {
 
  
 //	
-//	  public abstract int size();
+//	  public abstract int size(); 
 	//System.out.println(list.size());
 //	  public abstract boolean isEmpty();//Done
 //	System.out.println(list.isEmpty());
