@@ -6,7 +6,7 @@ public class StudentClient {
 		std.setRollNumber(14);
 		System.out.println(std.getRollNumber());
 		System.out.println(std.getAge());
-		System.out.println(std.getName());
+		System.out.println(std.getName()); 
 
 		   
 	}
