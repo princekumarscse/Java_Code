@@ -3,7 +3,7 @@ package CollectionPractics;
 import java.util.List;          
           
 import StreamAPI.DataBase;     
-import StreamAPI.Employee;   
+import StreamAPI.Employee;    
     
 public class ListAPIPractice {  
 public static void main(String[] args) {
