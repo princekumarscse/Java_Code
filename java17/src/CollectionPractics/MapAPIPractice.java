@@ -3,7 +3,7 @@ package CollectionPractics;
 import java.util.HashMap;  
 import java.util.Iterator;     
 import java.util.Map;        
-import java.util.Map.Entry;     
+import java.util.Map.Entry;      
 import java.util.function.BiConsumer;    
 
 import java.util.Set;    
