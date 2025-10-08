@@ -5,7 +5,7 @@ public class Student {
 	private String name="Prince Kumar"; 
 	private int age=23;       
 	    
-	public int getRollNumber() {    
+	public int getRollNumber() {     
 		return rollNumber;
 	} 
 	public void setRollNumber(int rollNumber) {
