@@ -4,7 +4,7 @@ public class SecondLargest {
 	public static void main(String[] args) {
 		int[] array = { 170, 5, 4, 85,50, 80, 10, 90, 30,110 };
 		
-//		int max = array[0];
+//		int max = array[0]; 
 //		int secondMax = array[0];
 		
 		int max =0;
